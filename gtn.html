@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="gtn.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Momo+Trust+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="gtn.js"></script>
+  </head>
+
+  <body>
+    <header class="container">
+      <h1>Guess the Number!</h1>
+      <p>Guess a number between <strong>1 and 100</strong></p>
+
+      <input type="number" id="guessInput" placeholder="Enter your guess" />
+      <button onclick="checkGuess()">Guess</button>
+
+      <p>Number of guesses: <span id="guessCount">0</span></p>
+
+      <button onclick="startGame()">Restart Game</button>
+
+      <p id="feedback"></p>
+    </header>
+  </body>
+</html>

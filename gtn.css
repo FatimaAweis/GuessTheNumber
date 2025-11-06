@@ -1,0 +1,35 @@
+body{
+    font-family: "Momo Trust Display";
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 3px;
+}
+
+input{
+    padding: 7px;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(235, 232, 232)
+}
+
+button{
+    background-color: #5d598a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15x;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #141415;
+}
